@@ -30,5 +30,11 @@ public class DemoTHController {
 		
 		return "demoth1";
 	}
+
+	@GetMapping("/demoth7") // nombre de la ruta que quieres que tenga
+	public String demoth7() {
+
+		return "demoth7";
+	}
 	
 }
